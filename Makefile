@@ -13,4 +13,3 @@ upload:
 
 clean:
 	powershell.exe -Command "Remove-Item firmware.hex"
-# this is a test
