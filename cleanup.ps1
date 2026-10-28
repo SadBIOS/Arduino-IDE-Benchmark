@@ -1,4 +1,3 @@
-#this is not made to extract only intel hex files the updated build Arduino Automator repository
 $root = Get-Location
 Get-ChildItem | ForEach-Object {
     if ($_.Extension -like '.hex') {
